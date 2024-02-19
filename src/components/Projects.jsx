@@ -14,10 +14,10 @@ const Projects = () => {
             </p>
 
             <div className="grid sm:grid-cols-2 gap-12"> 
-                <ProjectItem img={superMarket} title='Supermarket' tech='C'/>
-                <ProjectItem img={games} title='Games' tech='Unity C#'/>
-                <ProjectItem img={portfolio} title='Portfolio' tech='React'/>
-                <ProjectItem img={airline} title='Airline' tech='CPP'/>
+                <ProjectItem img={superMarket} title='Supermarket' tech='C' url='https://github.com/LiadOvdat5/SuperMarket_C_Liad-Ben'/>
+                <ProjectItem img={games} title='Games' tech='Unity C#' url='https://itch.io/dashboard'/>
+                <ProjectItem img={portfolio} title='Portfolio' tech='React' url='https://github.com/LiadOvdat5/Liad-s-Portfolio'/>
+                <ProjectItem img={airline} title='Airline' tech='CPP' url='https://github.com/BenVingarten/AirLine'/>
             </div>
 
         </div>

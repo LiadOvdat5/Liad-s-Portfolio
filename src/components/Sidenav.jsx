@@ -12,7 +12,7 @@ const Sidenav = () => {
   }
 
   const links = [
-    { url: 'main', icon: <AiOutlineHome size={20} />, label: 'Home' },
+    { url: '#main', icon: <AiOutlineHome size={20} />, label: 'Home' },
     { url: '#work', icon: <GrProjects size={20} />, label: 'Projects' },
     { url: '#projects', icon: <AiOutlineProject size={20} />, label: 'Portfolio' },
     { url: '#about', icon: <BsPerson size={20} />, label: 'About' },
